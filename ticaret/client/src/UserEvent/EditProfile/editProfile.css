@@ -1,0 +1,102 @@
+*{
+    transition: all 1s;
+}
+
+.user{
+    border-radius: 10px 50px 10px 50px;
+    background-color: #fff;
+    flex: 1;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInfoBack{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 4%;
+}
+
+.userTitleContainer{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userTop{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.userInfoTop{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.userInfoItem{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 4%;
+}
+
+.userInfoValue{
+    font-weight: 300;
+}
+
+.userBottom{
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.userFormBottom{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.userFormBottom>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.userFormBottom>input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.userBtn{
+    width: 40%;
+    height: 3em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.userBtn:hover{
+    transform: scale(1.25);
+}

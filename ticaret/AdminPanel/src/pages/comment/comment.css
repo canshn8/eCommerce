@@ -1,0 +1,127 @@
+.comment{
+    flex: 4;
+    padding: 20px;
+}
+
+.commentTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commentAddBtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.commentTop{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.commentTopLeft,.commentTopRight{
+    flex: 1;
+}
+
+.commentTopRight{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.commentInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.commentInfoBottom{
+    margin-top: 10px;
+}
+
+.commentInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentInfoValue{
+    font-weight: 300;
+}
+
+.commentBottom{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.commentForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentFormLeft{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.commentFormLeft>label{
+    color: gray;
+}
+.commentFormLeft>span{
+    color: black;
+}
+.commentFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.commentFormLeft>select{
+    margin-bottom: 10px;
+}
+
+.commentUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.commentFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.commentUpload{
+    display: flex;
+    align-items: center;
+}
+
+.commentBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}

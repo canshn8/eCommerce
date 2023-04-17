@@ -1,0 +1,55 @@
+.addUserTitle{
+    height: 50px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.newUser{
+    flex: 1;
+    margin-right: 40rem;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.addUserItem{
+    margin-top: 3em;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.addUserItem>label{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addUserItem>input{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.addUserBtn{
+    background-color: teal;
+    width: 255px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}

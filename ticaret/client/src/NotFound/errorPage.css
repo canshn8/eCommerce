@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Quicksand&display=swap');
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.errorPage{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.errorTitle{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nf{
+    font-family: 'Mynerve', cursive;
+    font-size: 150px;
+    letter-spacing: -30px;
+}
+
+.errorDesc{
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.goUrl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.url{
+    font-size: 24px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+}
+
+.url:focus{
+    border: none;
+    width: 8em; 
+}
+
+.urlBtn{
+    color: white;
+    margin-top: 1em;
+    border: none;
+    width: 8em;
+    font-size: 24px; 
+    border: none;
+    background-color: darkcyan;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.urlBtn:hover{
+    transform: translateY(0.5em);
+}
+
+.getBtnDiv{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.getBtn{
+    transition: 1s;
+    font-size: 30px;
+    font-family: 'Mynerve', cursive;
+    border: none;
+    background-color: white;
+}
+
+.getBtn:hover{
+    transition: 1s;
+    font-size: 60px;
+    transform: translateY(-10px);
+}

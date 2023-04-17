@@ -1,0 +1,125 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddBtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.userTop{
+    display: flex;
+}
+
+.userTopLeft,.userTopRight{
+    flex: 1;
+}
+
+.userTopRight{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.userInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userInfoTop{
+    display: flex;
+    align-items: center;
+}
+
+.userInfoBottom{
+    margin-top: 10px;
+}
+
+.userInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userInfoValue{
+    font-weight: 300;
+}
+
+.userBottom{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+}
+
+.userForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.userFormLeft>label{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.userFormLeft>input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.userFormLeft>select{
+    margin-bottom: 10px;
+}
+
+.userUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.userUpload{
+    display: flex;
+    align-items: center;
+}
+
+.userBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}

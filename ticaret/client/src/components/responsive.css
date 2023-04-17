@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+:root{
+  --secondaryColor: #ccc;
+  --textColor: #eee;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: #3586ff;
+  color: var(--textColor);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+nav a{
+  padding: 5px;
+  font-size: 24px;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: var(--secondaryColor);
+  text-decoration: none;
+}
+
+header .nav-btn{
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  font-size: 1.8rem;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.right {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+}
+
+.ciUser {
+  margin-top:4em;
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+}
+
+.homepage {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  margin-left: 2rem;
+}
+
+
+@media only screen and (max-width: 380px){
+  
+  header .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  header nav{
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #3586ff;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive_nav{
+    transform: none;
+  }
+
+  nav .nav-close-btn{
+    position: absolute;
+    top: 0;
+    right: 2rem;
+  }
+
+  nav a{
+    font-size: 1.5rem;
+  }
+
+  .rightIcon{
+    right: 0;
+    left: 0;
+  }
+  .leftIcon{
+    right: 0;
+    left: 0;
+  }
+
+}

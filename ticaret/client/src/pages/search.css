@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Quicksand&display=swap');
+
+
+.searchContainer{
+    margin-top: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchFilter{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.8em;
+    width: 10em;
+    height: 3em;
+    border: none;
+}
+
+.searchResult{
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.value{
+    margin-top: 3em;
+}
+
+.searchTitle{
+    width: 30em;
+}
+
+.searchDesc{
+    width: 60em;
+}
+
+.searchPrice{
+    width: 10em;
+}
+table{
+    border-radius: 11em;
+
+}
+
+th{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+td{
+    font-size: 24px;
+    padding: 30px;
+    border-radius: 11em;
+}

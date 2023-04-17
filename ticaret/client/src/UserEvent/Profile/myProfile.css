@@ -1,0 +1,73 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.myProfile{
+
+}
+
+.myProfileCtx{
+    margin: auto;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 75);
+    box-shadow:  0px 0px 15px -10px rgba(0, 0, 0, 75);
+    border-radius: 10px 10px 0px;
+    width: 50em;
+    height: 70vh;
+}
+
+.myProfileInfo{
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profileImg{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.myProfileChanged{
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.chgLink{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    font-size: 24px;
+}
+
+.myProfileBtn{
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    color: lightslategray;
+}
+
+.ct{
+    position: absolute;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.fav{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.car{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
